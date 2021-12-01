@@ -1,0 +1,78 @@
+.landingshopbody {
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+#landingcontainer, #scrollcontainer {
+    overflow: hidden;
+    width: 100vw;
+    padding: 0;
+}
+
+.card-title {
+        text-transform: uppercase;
+        background-color: transparent;
+        font-size: 30px;
+        padding: 5px;
+        width: max-content;
+        margin-top: 150px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .card-text {
+        background-color: #F5B9B2;
+        padding: 5px;
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+    img {
+        padding-left: 0;
+    }
+
+    .card {
+        margin-bottom: 200px;
+        border: none;
+    }
+
+    .card-img {
+        height: 100%;
+        width: auto;
+    }
+
+    #video{
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 200px;
+    }
+
+@media only screen and (min-width: 890px) {
+
+    .card-title {
+        text-transform: uppercase;
+        background-color: transparent;
+        font-size: 40px;
+        padding-right: 100px;
+        width: max-content;
+        margin-top: 150px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .card-text {
+        background-color: #F5B9B2;
+        padding: 50px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    img {
+        padding-left: 200px;
+    }
+    
+}

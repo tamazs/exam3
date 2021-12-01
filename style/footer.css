@@ -1,0 +1,94 @@
+.footer{
+    background: white;
+    color:white;
+    border-top: black 2px solid;}
+    
+    
+      ul {list-style-type: none;}
+    
+    
+      img{
+          height: 25px;
+          width: auto;
+      }
+      a{
+        color:black;
+      }
+    
+  
+    .copyright p{border-top:1px solid rgba(255,255,255,.5);} 
+  
+    #ficon {
+        height: 25px;
+        width: auto;
+        margin-right: 10px;
+        padding: 0;
+    }
+  
+  
+  
+  
+  #fsocial {
+      margin-right: 10px;
+  }
+  
+  #logo{
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 20px;
+      color: white;
+  }
+  
+  @media only screen and (min-width: 890px) {
+      #logo{
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 40px;
+      color: white;
+  }
+  }.footer{
+  background: white;
+  color:black;
+  border-top: black 2px solid;}
+  
+  .links ul{
+     list-style-type: none;
+    padding: 0;}
+  
+  .about-company img{
+    
+        height: 25px;
+        width: auto;
+    }
+    a{
+      color:black;
+    }
+
+  .copyright p{border-top:1px solid rgba(255,255,255,.5);} 
+
+  #ficon {
+      height: 25px;
+      width: auto;
+      margin-right: 10px;
+      padding: 0;
+  }
+
+#fsocial {
+    margin-right: 10px;
+}
+
+#logo{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+@media only screen and (min-width: 890px) {
+    #logo{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+}
