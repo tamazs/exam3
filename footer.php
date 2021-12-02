@@ -15,7 +15,7 @@
                 <h4 class="mt-lg-0 mt-sm-4">Lokalizacja</h4>
                 <p>Ul.Gdyńska 85, Miszewo</p>
                 <p><img src="<?php echo get_template_directory_uri() ?>/images/phone.png')" id="ficon">+48 504 814 776</p>
-                <p><img src="<?php echo get_template_directory_uri() ?>/images/mail.png')" id="ficon">streetverse@gmail.com</p>
+                <p><img src="<?php echo get_template_directory_uri() ?>/images/mail.png')" id="ficon">piatkowskivioletta177@gmail.com</p>
                 </div>
             </div>
             <div class="row mt-5">

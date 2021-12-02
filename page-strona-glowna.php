@@ -21,6 +21,7 @@ if ( have_posts() ) :
                     <div class="card-img-overlay">
                         <h3 class="card-title"><?php the_field('card_title')?></h5>
                         <p class="card-text"><?php the_field('card_text')?></p>
+                        <img class="card-text" id="signature" src="<?php echo get_template_directory_uri() ?>/images/signature.png" alt="signature">
                     </div>
                 </div>
         </div>
@@ -30,13 +31,14 @@ if ( have_posts() ) :
                     <div class="card-img-overlay">
                         <h3 class="card-title"><?php the_field('card_title_2')?></h5>
                         <p class="card-text"><?php the_field('card_text_2')?></p>
+                        <?php echo '<a href="umow-sie" class="btn btn-primary">FORMULARZ<br>ZGŁOSZENIOWY</a>' ?>
                     </div>
                 </div>
         </div>
     </div>
     <div id="bound-one" class="scroll-bound">
 		<div class="content">
- 			<video src="<?php echo get_template_directory_uri() ?>/images/scroll.mp4" id="v0" loop muted autoplay playsinline webkit-playsinline>
+ 			<?php the_content() ?>
       </video>
 		</div>
 	</div>

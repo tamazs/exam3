@@ -19,13 +19,14 @@ if ( have_posts() ) :
             </div>
         </div>
         <div class="container-fluid">
-        <div class="col-12">
-                        <div id="promovid">
-                            <?php the_field('promo_vid')?>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="col-12" id="videorow">
+                            <div id="promovid">
+                                <?php the_field('promo_vid')?>
+                            </div>
+            </div>
         </div>
-    </div>
+        </div>
             <?php
                 endwhile;
                 wp_reset_postdata();
