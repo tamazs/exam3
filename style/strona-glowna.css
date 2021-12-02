@@ -21,26 +21,22 @@
         color: #ddb263;
     }
 
-    .card-text {
-        background-color: #F5B9B2;
+    #cardbody {
+        background-color: white;
         padding: 5px;
         margin-top: 30px;
         font-size: 16px;
         font-weight: lighter;
     }
 
-    img {
-        padding-left: 0;
+    #cardimg {
+        padding: 30px;
+        overflow: hidden;
     }
 
     .card {
         margin-bottom: 200px;
         border: none;
-    }
-
-    .card-img {
-        height: 100%;
-        width: auto;
     }
 
     #video{
@@ -62,6 +58,10 @@
         border: none;
     }
 
+    #content {
+        overflow: hidden;
+    }
+
 @media only screen and (min-width: 890px) {
 
     .card-title {
@@ -75,16 +75,15 @@
         color: #ddb263;
     }
 
-    .card-text {
-        background-color: #F5B9B2;
-        padding: 50px;
+    #cardbody {
+        background-color: white;
+        padding: 30px;
         margin-top: 30px;
         font-size: 20px;
         font-weight: lighter;
     }
-
-    img {
-        padding-left: 200px;
-    }
     
+    #cardimg {
+        padding: 0;
+    }
 }

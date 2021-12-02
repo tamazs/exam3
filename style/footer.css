@@ -1,7 +1,8 @@
 .footer{
     background: white;
     color:white;
-    border-top: black 2px solid;}
+    border-top: black 2px solid;
+    overflow: hidden;}
     
     
       ul {list-style-type: none;}
